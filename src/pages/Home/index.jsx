@@ -2,15 +2,16 @@ import React from "react";
 
 import Cards from "./com/Card";
 
-import TopNav from "../../components/Top-nav/TopNav";
+import DefaultLayout from "../../layouts/DefaultLayout.jsx";
 
 function Home() {
     return (
-        <div>
-            <TopNav/>
+        <DefaultLayout>
             Home 
             <Cards/>
-        </div>
+        </DefaultLayout>
+           
+        
     )
 }
 

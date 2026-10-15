@@ -1,6 +1,16 @@
+import React from "react";
+
+
+import DefaultLayout from "../../layouts/DefaultLayout.jsx";
+
 function Login() {
     return (
-        <div>Login</div>
+        
+        <DefaultLayout>
+
+            Login
+        </DefaultLayout>
+            
     )
 }
-export default Login
+export default Login;

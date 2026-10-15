@@ -8,7 +8,11 @@ function TopNav(){
     return(
         <div className="flex justify-between items-center h-16 bg-gray-200 border.b border.b-gray-400 px-6">
             
-            <div>Stock Flow</div>
+            <div className="font-semibold  text-foreground " 
+            onClick={() => navigate("/")}
+                >
+                Stock Flow
+                </div>
            <ShadCNButton onClick={() => navigate("/Login")}>Login</ShadCNButton>
             
         </div>
